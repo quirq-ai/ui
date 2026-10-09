@@ -82,8 +82,8 @@ Source: [`src/templates/quirq-app.tsx`](source/src/templates/quirq-app.tsx), [`s
 
 Source: [`src/templates/quirq-launch.tsx`](source/src/templates/quirq-launch.tsx), [`src/lib/frameCheck.ts`](source/src/lib/frameCheck.ts), [`src/api/frame-check.ts`](source/src/api/frame-check.ts), [`src/lib/externalLinks.ts`](source/src/lib/externalLinks.ts)
 
-<img src="screenshots/launch-oops-1280-light.png" width="49%" alt="Web page in a window, "can't be reached", 1280 wide, light"> <img src="screenshots/launch-oops-1280-dark.png" width="49%" alt="Web page in a window, "can't be reached", 1280 wide, dark">
-<img src="screenshots/launch-oops-390-light.png" width="49%" alt="Web page in a window, "can't be reached", 390 wide, light"> <img src="screenshots/launch-oops-390-dark.png" width="49%" alt="Web page in a window, "can't be reached", 390 wide, dark">
+<img src="screenshots/launch-oops-1280-light.png" width="49%" alt="Web page in a window, 'can't be reached', 1280 wide, light"> <img src="screenshots/launch-oops-1280-dark.png" width="49%" alt="Web page in a window, 'can't be reached', 1280 wide, dark">
+<img src="screenshots/launch-oops-390-light.png" width="49%" alt="Web page in a window, 'can't be reached', 390 wide, light"> <img src="screenshots/launch-oops-390-dark.png" width="49%" alt="Web page in a window, 'can't be reached', 390 wide, dark">
 
 ### Not found
 

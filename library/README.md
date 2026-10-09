@@ -19,7 +19,7 @@ library/
 
 | Folder | Repository | Commit | What it holds |
 | --- | --- | --- | --- |
-| [website](website/README.md) | [quirq-ai/website](https://github.com/quirq-ai/website) | [`a66ac87`](https://github.com/quirq-ai/website/commit/a66ac87a28cc269c9aa94e4e60b7679a11096c6a) | Home base desktop at www.quirq.dev: 12 views, 55 copied files, 79 PostHog files referenced |
+| [website](website/README.md) | [quirq-ai/website](https://github.com/quirq-ai/website) | [`a66ac87`](https://github.com/quirq-ai/website/commit/a66ac87a28cc269c9aa94e4e60b7679a11096c6a) | Home base desktop at www.quirq.dev: 12 views, 55 copied files, 81 PostHog files referenced (79 in the import walk, plus 2 token files) |
 
 ## Rules for adding a source
 

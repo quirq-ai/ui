@@ -18,13 +18,13 @@ The shadcn registry (ui.shadcn.com) is blocked from cloud sessions, so `shadcn a
 - point `from "cn"` at the repository's own helper;
 - keep shadcn's MIT license beside the copies, naming the commit they came from.
 
-Monitoring follows this in `components/ui/`. The website's `src/components/ui/` does not. Its four files are rewrites (forwardRef, a class map instead of class-variance-authority). Only `button.tsx` names its shadcn commit, and there is no license file beside them. See [website](website/README.md#shared-controls).
+Monitoring follows this in `components/ui/`. The website's `src/components/ui/` does not. Its four files are rewrites: `card.tsx` and `tabs.tsx` use forwardRef, and `badge.tsx` and `button.tsx` are plain functions with a class map instead of class-variance-authority. Only `button.tsx` names its shadcn commit, and there is no license file beside them. See [website](website/README.md#shared-controls).
 
-### D3. Check every UI change in light and dark, at 1280 and 390 wide; popups never scroll
+### D3. Screenshots in light and dark at both widths, and popups that never scroll
 
-Source: [innernet AGENTS.md:11](https://github.com/quirq-ai/innernet/blob/7afd503/AGENTS.md#L11) (popups never scroll) and [monitoring AGENTS.md:378](https://github.com/quirq-ai/monitoring/blob/95a70c8/AGENTS.md#L378), plus the screenshot rule in the same file.
+Source: [innernet AGENTS.md:11](https://github.com/quirq-ai/innernet/blob/7afd503/AGENTS.md#L11) (popups never scroll) and [monitoring AGENTS.md:378](https://github.com/quirq-ai/monitoring/blob/95a70c8/AGENTS.md#L378) (no popup that scrolls), and [monitoring AGENTS.md:505-508](https://github.com/quirq-ai/monitoring/blob/95a70c8/AGENTS.md#L505-L508) (screenshots).
 
-Every UI pull request carries screenshots at both widths in both themes. Content that needs scrolling belongs on a page, not in a popup.
+In innernet and monitoring, content that needs scrolling belongs on a page, not in a popup. In monitoring, every UI change carries phone and desktop screenshots in light and dark. This library takes its own screenshots the same way. Whether both rules apply to every quirq UI is open: see [O4](#o4-phone-first-everywhere).
 
 ### D4. Phone first, on monitoring
 
@@ -42,7 +42,7 @@ Source: the quirq project's recorded decisions, and [website AGENTS.md:86](https
 
 ### D6. Writing
 
-Source: [ui README.md:67-68](https://github.com/quirq-ai/ui/blob/47b2f0ea90c852985acc53ffd847e0df215afe14/README.md#L67-L68), the starter template.
+Source: [ui README.md:61-62](https://github.com/quirq-ai/ui/blob/47b2f0ea90c852985acc53ffd847e0df215afe14/README.md#L61-L62), the starter template.
 
 - Use sentence case and plain words.
 - Use no em or en dashes. `pnpm check` enforces this in this repository.
@@ -56,20 +56,20 @@ Monitoring uses near-monochrome surfaces and hairline dividers, with color only 
 
 ### D8. The website keeps its desktop character
 
-Source: [website AGENTS.md:7-9](https://github.com/quirq-ai/website/blob/a66ac87a28cc269c9aa94e4e60b7679a11096c6a/AGENTS.md#L7-L9) and [:50](https://github.com/quirq-ai/website/blob/a66ac87a28cc269c9aa94e4e60b7679a11096c6a/AGENTS.md#L50).
+Source: [website AGENTS.md:7-9](https://github.com/quirq-ai/website/blob/a66ac87a28cc269c9aa94e4e60b7679a11096c6a/AGENTS.md#L7-L9), [:29](https://github.com/quirq-ai/website/blob/a66ac87a28cc269c9aa94e4e60b7679a11096c6a/AGENTS.md#L29) (the dock) and [:50](https://github.com/quirq-ai/website/blob/a66ac87a28cc269c9aa94e4e60b7679a11096c6a/AGENTS.md#L50).
 
 The website is a desktop:
 
 - a plain background with the organization's GitHub README written on it;
 - glass icons and a floating dock;
-- windows with expand, restore and close;
+- windows with expand, restore, minimize and close;
 - light and dark themes, and screensavers.
 
 Every link opens in a window on the site, with the page in an iframe. A page that can't be shown in a window shows **Oops** with **Open in new tab**.
 
 ### D9. Repository type comes from the org's role property
 
-suraj, 2026-10-09 22:09 UTC: "I want to add the repo type and its affects on the website ui". He created the `role` property on quirq-ai himself that day. The rule as built is in [website #16](https://github.com/quirq-ai/website/pull/16), in [website AGENTS.md:41](https://github.com/quirq-ai/website/blob/a66ac87a28cc269c9aa94e4e60b7679a11096c6a/AGENTS.md#L41) and in [docs/quirq-app-mapping.md:69](https://github.com/quirq-ai/website/blob/a66ac87a28cc269c9aa94e4e60b7679a11096c6a/docs/quirq-app-mapping.md#L69).
+suraj, 2026-10-09 22:09 UTC: "I want to add the repo type and its affects on the website ui". The rule as built is in [website #16](https://github.com/quirq-ai/website/pull/16), in [website AGENTS.md:41](https://github.com/quirq-ai/website/blob/a66ac87a28cc269c9aa94e4e60b7679a11096c6a/AGENTS.md#L41) and in [docs/quirq-app-mapping.md:69](https://github.com/quirq-ai/website/blob/a66ac87a28cc269c9aa94e4e60b7679a11096c6a/docs/quirq-app-mapping.md#L69).
 
 - A repository's type (project, agent, tool, library, docs or config) is read live from GitHub, never hard-coded per repository.
 - The website shows it as a badge and as a filter.
@@ -119,4 +119,4 @@ D10 settles PostHog's code. Two things are left:
 
 ### O4. Phone first everywhere?
 
-D4 is monitoring's rule. suraj reads on his phone, so it may be the right default for every quirq UI. Default: it applies to monitoring only.
+D4 is monitoring's rule, and D3 is innernet's and monitoring's. suraj reads on his phone, so it may be the right default for every quirq UI. Default: each rule applies where it is written.
