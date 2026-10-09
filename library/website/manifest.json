@@ -318,6 +318,11 @@
     "generatedData": [
       "src/data/quirq-projects.json",
       "src/data/quirq-repositories.json"
+    ],
+    "tokens": [
+      "tailwind.config.js",
+      "static/scripts/theme-init.js"
     ]
-  }
+  },
+  "note": "copied entries carry a sha256 of the file; referenced entries are paths at the source commit, linked from the catalogue, not copied. LICENSE, LICENSE.shadcn, LICENSING.md, README.md and screenshots/ are added by quirq-ai/ui."
 }

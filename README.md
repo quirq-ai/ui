@@ -6,7 +6,7 @@ The full shape catalog this was cut from lives on the [`xo-quirq`](https://githu
 
 ## UI library
 
-[`library/`](library/README.md) collects the pages and components quirq has already built, with screenshots, and [`library/DECISIONS.md`](library/DECISIONS.md) records every UI decision. Look there before building something new. The first source is [the website](library/website/README.md).
+[`library/`](library/README.md) collects the pages and components quirq has already built, with screenshots, and [`library/DECISIONS.md`](library/DECISIONS.md) records the UI decisions made so far. Look there before building something new. The first source is [the website](library/website/README.md).
 
 ## Start a new project
 

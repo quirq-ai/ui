@@ -1,8 +1,11 @@
-The four component files in this folder (badge.tsx, button.tsx, card.tsx,
-tabs.tsx) were adapted by quirq-ai/website from shadcn/ui
-(https://github.com/shadcn-ui/ui). The website does not record the shadcn
-commit it copied from. This notice is added by quirq-ai/ui; the files are
-used under the licence below.
+The four files in source/src/components/ui/ (badge.tsx, button.tsx,
+card.tsx, tabs.tsx) were adapted by quirq-ai/website from shadcn/ui
+(https://github.com/shadcn-ui/ui), new-york-v4 registry. button.tsx names
+the shadcn commit it came from, shadcn-ui/ui@6efecd8; the other three do
+not record one. They are rewrites (forwardRef, a class map instead of
+class-variance-authority), restyled with the website's tokens. This notice
+was added by quirq-ai/ui, not copied from the website, and is used under
+the licence below.
 
 MIT License
 
