@@ -1,6 +1,6 @@
 // House rule: no em or en dashes in source, copy or docs. Run with `pnpm check`.
 import { readFileSync, readdirSync, statSync } from "node:fs";
-import { join } from "node:path";
+import { basename, dirname, join } from "node:path";
 
 const root = new URL("..", import.meta.url).pathname;
 const dashes = new RegExp(`[${String.fromCharCode(0x2013)}${String.fromCharCode(0x2014)}]`);
@@ -10,6 +10,8 @@ function walk(dir) {
   for (const name of readdirSync(dir)) {
     if (["node_modules", ".next", ".git"].includes(name)) continue;
     const path = join(dir, name);
+    // library/<repository>/source/ holds unchanged copies of other repositories' files.
+    if (name === "source" && basename(dirname(dir)) === "library") continue;
     if (statSync(path).isDirectory()) walk(path);
     else if (/\.(tsx?|css|mjs|md|json)$/.test(name)) {
       readFileSync(path, "utf8").split("\n").forEach((line, i) => {

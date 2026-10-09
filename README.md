@@ -4,6 +4,10 @@ A stripped-down Next.js starter for new quirq repos. The quirq design tokens, br
 
 The full shape catalog this was cut from lives on the [`xo-quirq`](https://github.com/quirq-ai/ui/tree/xo-quirq) branch.
 
+## UI library
+
+[`library/`](library/README.md) collects the pages and components quirq has already built, with screenshots, and [`library/DECISIONS.md`](library/DECISIONS.md) records every UI decision. Look there before building something new. The first source is [the website](library/website/README.md).
+
 ## Start a new project
 
 ```sh
@@ -19,6 +23,7 @@ Then:
 1. Rename it in `lib/site.ts` (name, title, description, links) and `package.json`.
 2. Replace `app/(site)/page.tsx` with your first page.
 3. Delete anything in `components/ui/` you don't need.
+4. Delete `library/`. It is the UI library, kept here for reference, not part of the template.
 
 Requires Node 20.9 or newer and pnpm.
 
@@ -42,6 +47,7 @@ lib/
 public/                favicon, quirq brand SVGs, runtime and integration logos
 scripts/
   check-dashes.mjs     fails on em or en dashes
+library/               the UI library: collected pages, components, screenshots and decisions
 ```
 
 ## Commands
