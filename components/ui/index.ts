@@ -1,4 +1,4 @@
-// Shared ui primitives for every shape category. Import from "@/components/ui".
+// Shared UI primitives. Import from "@/components/ui".
 // Client components (CopyButton, CopyField, Segmented, TabChips, Switch) carry their own
 // "use client" boundary and are re-exported by name, so this barrel is safe to import from
 // server components.

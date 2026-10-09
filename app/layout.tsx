@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Mono, Quicksand } from "next/font/google";
+import { site } from "@/lib/site";
 import "./globals.css";
 
 const plexMono = IBM_Plex_Mono({
@@ -15,9 +16,8 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: { default: "quirq shapes", template: "%s · quirq shapes" },
-  description:
-    "Every UI component shape used across quirq products, demoed live in Next.js, plus a sample app built from them.",
+  title: { default: site.title, template: `%s · ${site.title}` },
+  description: site.description,
   icons: { icon: "/favicon.svg" },
 };
 

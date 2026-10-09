@@ -1,15 +1,15 @@
 {
-  "name": "quirq-ui",
+  "name": "quirq-template",
   "version": "0.1.0",
   "private": true,
-  "description": "Every quirq UI component shape, demoed live in Next.js, plus a sample app built from them.",
+  "description": "A stripped-down Next.js starter with the quirq design tokens, brand marks and UI primitives.",
   "scripts": {
     "dev": "next dev --port 4310",
     "build": "next build",
     "start": "next start --port 4310",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "check": "node scripts/check-shapes.mjs"
+    "check": "node scripts/check-dashes.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
