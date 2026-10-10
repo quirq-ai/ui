@@ -1,0 +1,328 @@
+{
+  "source": {
+    "repository": "https://github.com/quirq-ai/website",
+    "commit": "a66ac87a28cc269c9aa94e4e60b7679a11096c6a",
+    "posthogUpstreamCommit": "4c27ff7578f24c75b40d1024e4e0cbd40c9922ba"
+  },
+  "copied": [
+    {
+      "path": "quirq.apps.json",
+      "sha256": "5d60e51167da08890595e10dec9a9c9819cc300f00f171071681103259ddead4"
+    },
+    {
+      "path": "quirq.projects.json",
+      "sha256": "8b34277047d75e28d7084eb857cd3296f4c4ebf298aea41018ac6b60374aecef"
+    },
+    {
+      "path": "scripts/lib/quirq-catalog.mjs",
+      "sha256": "d3bbadb58a3f3105ce9963460022ffeb6b1c4c11297387906933040cd9f9e40c"
+    },
+    {
+      "path": "scripts/lib/quirq-phases.mjs",
+      "sha256": "a28b5378c321aaa31c572d437b3a0a9c943074cf2c828a8965184ac70bd43f90"
+    },
+    {
+      "path": "src/api/frame-check.ts",
+      "sha256": "3fd19edc0308d0b8bdef938b9e306815d3766d0df6de5cf0d65f566f70ee9f81"
+    },
+    {
+      "path": "src/components/Desktop/Background.tsx",
+      "sha256": "5f5139379e3f7e00415d51af563d4687a75c84347ba98fcb0c84604039a88c4a"
+    },
+    {
+      "path": "src/components/Dock/README.md",
+      "sha256": "e7ae213fba940dfcac0ef055ce5de9000ad982f015612cb12ffccb32f12798c7"
+    },
+    {
+      "path": "src/components/Dock/index.tsx",
+      "sha256": "81d3fe7767e78cd80178fa8cabd932de2df7bc98c4a848d5ab8981466bc70a16"
+    },
+    {
+      "path": "src/components/HomeBase/README.md",
+      "sha256": "36c1ef36e9420804cc6b8520ad49d97ae31eb75a11ff9ca887ac3b4fdbb8423f"
+    },
+    {
+      "path": "src/components/HomeBase/index.tsx",
+      "sha256": "238f79fafd8dfe0b31ecfb472e4fbab5bc79215d533012806acd136325fa5de5"
+    },
+    {
+      "path": "src/components/QuirqApp/DocsBrowser.tsx",
+      "sha256": "366bc75d8fc91a15fad32429b4bb02d6666d8c50f2969602fcce483d4a0bd6f9"
+    },
+    {
+      "path": "src/components/QuirqApp/DocsTree.tsx",
+      "sha256": "6afe7961b228698a38a6a9cc096349b377c9de84205a52cefbac4488c59fd6a1"
+    },
+    {
+      "path": "src/components/QuirqApp/MarkdownDoc.tsx",
+      "sha256": "fcfed3af08d1883b59135ce2469f81473e85bb5c10e0d72894353aaaa1198da7"
+    },
+    {
+      "path": "src/components/QuirqApp/README.md",
+      "sha256": "2f5d6b5fc647b196ef28b9f01d2cfa02caa0327be57b79383ae41f603eb84408"
+    },
+    {
+      "path": "src/components/QuirqApp/RoutedApp.tsx",
+      "sha256": "55e6a576ca2c907bab9ec8533eec9a1b10501dc22e8a846c6b5260af0a59d478"
+    },
+    {
+      "path": "src/components/QuirqApp/index.tsx",
+      "sha256": "3f9fa2987abbd101fa035fdbae49aabdad2893f15051dac6cf61df67675b4ef4"
+    },
+    {
+      "path": "src/components/QuirqAppIcon/README.md",
+      "sha256": "55f5cb3e86fc7ef30dfb7597e5793e47a2049561e67a372207c73d8b3b714482"
+    },
+    {
+      "path": "src/components/QuirqAppIcon/glyphs.ts",
+      "sha256": "301ad5ae71a319b4fc2c3c026da225694678ee656290fe78e661b69afd91f388"
+    },
+    {
+      "path": "src/components/QuirqAppIcon/index.tsx",
+      "sha256": "b4721e4b3c904817662a25be5755a1ce88200ce627c98092f1e584d0849bda57"
+    },
+    {
+      "path": "src/components/QuirqAvatar/README.md",
+      "sha256": "dc0cababad3c42f3408085e196cdd7cb28827010e3504c88fe44cfc84c8022c4"
+    },
+    {
+      "path": "src/components/QuirqAvatar/index.tsx",
+      "sha256": "22790d13b219d03182591661727d7100aa22a7e7a086c384bd9a228543c35333"
+    },
+    {
+      "path": "src/components/QuirqBrand/README.md",
+      "sha256": "bd4e6c162d59e7e0fe53b654e9b960ec9a8b71b0dad12e76b83a34a10c9fc651"
+    },
+    {
+      "path": "src/components/QuirqBrand/index.tsx",
+      "sha256": "a753225b64a760bf20d4615bce032dd64131eb42d62c3e915877a5c327ab093b"
+    },
+    {
+      "path": "src/components/QuirqInfraV0/README.md",
+      "sha256": "4393552416a5582ffb3771afc69b2f8183e5fffbd7abff5d7fccf3bfcf5468ae"
+    },
+    {
+      "path": "src/components/QuirqInfraV0/data.ts",
+      "sha256": "b35a7055275c6862737d65ee8567c52fdad5231000bd73a66daba614e1ccdd85"
+    },
+    {
+      "path": "src/components/QuirqInfraV0/index.tsx",
+      "sha256": "0dc18e375ff8115209d67fc094994b86a847119443358038d82360951a7f2bbb"
+    },
+    {
+      "path": "src/components/QuirqInfraV0/live.ts",
+      "sha256": "f5a54aff14ecadb255c92bf1e82a916cef8eb35d7ef5dadf68ee45cd23260d3c"
+    },
+    {
+      "path": "src/components/QuirqProfile/README.md",
+      "sha256": "429b84db4ada62242112dd1d7876c3947da32ba2160608eb7d665758678402fc"
+    },
+    {
+      "path": "src/components/QuirqProfile/index.tsx",
+      "sha256": "20628531facdbc72ad20ef56a890c44d22500589838c25e323cb4fa1168451b7"
+    },
+    {
+      "path": "src/components/QuirqProfile/useProfileReadme.ts",
+      "sha256": "a64ab8e4cf210fd322a662142d934f818439ef824851cdeaf7577ec86567d36b"
+    },
+    {
+      "path": "src/components/QuirqProjects/README.md",
+      "sha256": "fb80463518c2b6e0f6fba5ad59dda452632af633594011ef6546da15ca77f069"
+    },
+    {
+      "path": "src/components/QuirqProjects/index.tsx",
+      "sha256": "aa5a97dfb183005bcf8505b432082c63379ba67e3d64c935c23c5c7b5441a69f"
+    },
+    {
+      "path": "src/components/QuirqSearch/README.md",
+      "sha256": "c3b855e6ec50eacf6012a9934200f4a584b55869a52816354aa7d8c0b5f313bc"
+    },
+    {
+      "path": "src/components/QuirqSearch/index.tsx",
+      "sha256": "a7dae5f39e1d462234853cf8b675b22a1099a1da314c8dd05c2b18083457fbd7"
+    },
+    {
+      "path": "src/components/Quirqy/README.md",
+      "sha256": "7399d0abe166d903e2bebf8db8c43c1dab2cbf3b78e94eb78bd26fda9a28e5e6"
+    },
+    {
+      "path": "src/components/Quirqy/index.tsx",
+      "sha256": "396b34a4bd67f89c3b1f1902d124cd15f70673d2179b9832c4e04c02af5bbb2c"
+    },
+    {
+      "path": "src/components/ui/README.md",
+      "sha256": "1d4ac5aac479c7714bf46cb71b3618e7080038e2e038536084694ee7e6742ea3"
+    },
+    {
+      "path": "src/components/ui/badge.tsx",
+      "sha256": "2edbe58a511b4bc96840f6042c251623c10701f6a576f8135531b258c2f11b61"
+    },
+    {
+      "path": "src/components/ui/button.tsx",
+      "sha256": "378be1b4b197ff5e486abdd64f135326cd0a302c48d9ea163c92c05d5a9c0fe6"
+    },
+    {
+      "path": "src/components/ui/card.tsx",
+      "sha256": "1878824536c6e2b1c2b2ac26e8247ccde75c0faa812e842707dbbe38d390a82b"
+    },
+    {
+      "path": "src/components/ui/tabs.tsx",
+      "sha256": "9f62ad23884ceeb73c85eb26c48b29975bc2db1beb0bd341e9b987d4fc544ec4"
+    },
+    {
+      "path": "src/lib/externalLinks.ts",
+      "sha256": "34069d2a98c98dbbcaa02d15eb93ee1ff4d940cdc3a70d200e4e5df2629d6c1b"
+    },
+    {
+      "path": "src/lib/frameCheck.ts",
+      "sha256": "ffc40acdb056731d1cf0994edc102e125b13d276b6ceac93c278ebaef9690c5f"
+    },
+    {
+      "path": "src/lib/quirqApps.ts",
+      "sha256": "9f978663bcefa0443808133d29b9233edcd93fe86d0c0d15ec0d0353cc4eb9ac"
+    },
+    {
+      "path": "src/lib/quirqAvatar.ts",
+      "sha256": "b28c3c7704e7d007150356e1b65b235e4db0b9ec963fd419900ddf3cb8c7ac2a"
+    },
+    {
+      "path": "src/lib/quirqDocs.ts",
+      "sha256": "8d10eac8821677d1672e3562d1c8dfb99fb2572798d503883d470c1b4563bba6"
+    },
+    {
+      "path": "src/lib/quirqLiveApps.ts",
+      "sha256": "ef652ed938bc36937bc7bd5903fd55bb5d6ff15fe656ff90946f467ccb91fc9e"
+    },
+    {
+      "path": "src/lib/quirqProjects.ts",
+      "sha256": "8d575f65ff06b05197370ab8a6d7195de00abd34db237417ecfa7bfc2a5dc367"
+    },
+    {
+      "path": "src/lib/quirqReadmeLinks.ts",
+      "sha256": "9b477e3c78e14aeb078976dd047298930a8e393a41e994c1b93890332c346b89"
+    },
+    {
+      "path": "src/lib/quirqRoles.ts",
+      "sha256": "e45a8ceab210ea4bdc75a94f2b45e203da00e9ca3d3069da402db1da19ca508d"
+    },
+    {
+      "path": "src/pages/projects.tsx",
+      "sha256": "53c85e725460913f1c443a8b36f10ef426485f7ebece79c85bc0bbc0075dedf2"
+    },
+    {
+      "path": "src/templates/QuirqInfraV0.tsx",
+      "sha256": "3f753d5b1a9d1efd4b1886f766a3bea1bf8b68abd8b7add490da7a494373e16b"
+    },
+    {
+      "path": "src/templates/quirq-app.tsx",
+      "sha256": "aa8e3b79b59d1c19d96c6c12cebfdcb58b799dec3c21ec5f3a44ebcd533507e6"
+    },
+    {
+      "path": "src/templates/quirq-launch.tsx",
+      "sha256": "1cfee29bd82845009eacdca6255f48b71600811b7cdcff8e3d7b15c84db49f0f"
+    },
+    {
+      "path": "src/templates/quirq-live-app.tsx",
+      "sha256": "dab6a295c43881d66b4080c41fafb538f096a1f656e1b680f4f2257d2ce011ee"
+    }
+  ],
+  "referenced": {
+    "posthogModified": [
+      "gatsby-browser.tsx",
+      "gatsby-ssr.js",
+      "src/components/ActiveWindowsPanel/index.tsx",
+      "src/components/AppWindow/index.tsx",
+      "src/components/Desktop/index.tsx",
+      "src/components/Explorer/index.tsx",
+      "src/components/Link/index.tsx",
+      "src/components/OSIcons/AppIcon.tsx",
+      "src/components/RadixUI/ContextMenu.tsx",
+      "src/components/Screensaver/index.tsx",
+      "src/components/Wrapper/index.tsx",
+      "src/components/seo.tsx",
+      "src/context/App.tsx",
+      "src/hooks/usePostHog.ts",
+      "src/pages/404.js",
+      "src/pages/display-options.tsx",
+      "src/pages/index.tsx",
+      "src/styles/global.css"
+    ],
+    "posthogUnchanged": [
+      "kea.js",
+      "src/components/AppContainer/index.tsx",
+      "src/components/BookmarkButton/index.tsx",
+      "src/components/CallToAction/index.tsx",
+      "src/components/CodeBlock/theme.ts",
+      "src/components/DebugContainerQuery/index.tsx",
+      "src/components/Desktop/DesktopIcon.tsx",
+      "src/components/Editor/SearchBar.tsx",
+      "src/components/Editor/SearchProvider.tsx",
+      "src/components/FloatingModal/index.tsx",
+      "src/components/GlossaryElement/index.tsx",
+      "src/components/Icons/Icons.tsx",
+      "src/components/Icons/index.tsx",
+      "src/components/KeyboardShortcut/index.tsx",
+      "src/components/Loading/index.tsx",
+      "src/components/NotProductIcons/index.tsx",
+      "src/components/OSButton/index.tsx",
+      "src/components/OSChrome/AddressBar.tsx",
+      "src/components/OSChrome/HeaderBar.tsx",
+      "src/components/OSFieldset/index.tsx",
+      "src/components/OSIcons/DemoIcon.tsx",
+      "src/components/OSIcons/GlassIcon.tsx",
+      "src/components/OSIcons/Icons.tsx",
+      "src/components/OSIcons/PricingIcon.tsx",
+      "src/components/OSIcons/glyphs.ts",
+      "src/components/OSIcons/index.ts",
+      "src/components/PostLayout/types.ts",
+      "src/components/RadixUI/Accordion.tsx",
+      "src/components/RadixUI/FileMenu.tsx",
+      "src/components/RadixUI/MenuBar.tsx",
+      "src/components/RadixUI/Modal.tsx",
+      "src/components/RadixUI/Popover.tsx",
+      "src/components/RadixUI/ScrollArea.tsx",
+      "src/components/RadixUI/Select.tsx",
+      "src/components/RadixUI/Toast.tsx",
+      "src/components/RadixUI/ToggleGroup.tsx",
+      "src/components/RadixUI/Tooltip.tsx",
+      "src/components/RadixUI/css/toast.css",
+      "src/components/SidePanel/index.tsx",
+      "src/components/Toast/index.tsx",
+      "src/components/Tooltip/index.tsx",
+      "src/components/WindowTabs/index.tsx",
+      "src/components/ZoomHover/index.tsx",
+      "src/constants/frostedSurfaces.ts",
+      "src/constants/index.ts",
+      "src/context/Toast.tsx",
+      "src/context/Window.tsx",
+      "src/hooks/useHorizontalScrollFade.tsx",
+      "src/hooks/useInactivityDetection.ts",
+      "src/hooks/useUser.tsx",
+      "src/hooks/useWindowLayoutAttributes.ts",
+      "src/lib/exportToPdf.ts",
+      "src/lib/shopify.ts",
+      "src/lib/strapi.ts",
+      "src/lib/utils.ts",
+      "src/navs/activeMenu.ts",
+      "src/templates/merch/store.ts",
+      "src/templates/merch/types.ts",
+      "src/types.ts",
+      "src/types/posthog.ts",
+      "src/utils.ts"
+    ],
+    "thirdPartyVendored": [
+      "src/vendor/blobatar/expression.js",
+      "src/vendor/blobatar/index.js",
+      "src/vendor/pierre-trees/react.js"
+    ],
+    "generatedData": [
+      "src/data/quirq-projects.json",
+      "src/data/quirq-repositories.json"
+    ],
+    "tokens": [
+      "tailwind.config.js",
+      "static/scripts/theme-init.js"
+    ]
+  },
+  "note": "copied entries carry a sha256 of the file; referenced entries are paths at the source commit, linked from the catalogue, not copied. LICENSE, LICENSE.shadcn, LICENSING.md, README.md and screenshots/ are added by quirq-ai/ui."
+}

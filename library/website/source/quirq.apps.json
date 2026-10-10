@@ -1,0 +1,97 @@
+{
+    "organization": "quirq-ai",
+    "name": "quirq",
+    "frameOrigins": ["https://docs.quirq.dev", "https://quitter.quirq.dev", "https://research.quirq.dev"],
+    "defaults": {
+        "category": "Apps",
+        "launchMode": "window",
+        "includeForks": true,
+        "includeArchived": false,
+        "excludeRepositories": []
+    },
+    "repositories": {
+        "infra-config": {
+            "name": "quirq infra v0",
+            "description": "How a change gets from a pull request to the daily canary across 13 public repos, and its live state.",
+            "path": "/v0",
+            "icon": "sliders",
+            "color": "purple",
+            "category": "Infra",
+            "component": "src/templates/QuirqInfraV0.tsx",
+            "featured": true
+        },
+        "xo-space": {
+            "name": "XO Space",
+            "description": "Build, observe, and measure work across your local coding agents.",
+            "path": "/xo-space",
+            "icon": "planet",
+            "color": "purple",
+            "featured": true
+        },
+        "docs": {
+            "name": "Docs",
+            "description": "The XO docs site. Its Start here page lists the main links.",
+            "path": "/docs",
+            "launchUrl": "https://docs.quirq.dev/docs/start",
+            "icon": "document",
+            "color": "blue",
+            "category": "Knowledge",
+            "featured": true
+        },
+        "innernet": {
+            "name": "Innernet",
+            "description": "Search projects and explore the stories behind your folders.",
+            "icon": "globe",
+            "color": "green",
+            "featured": true,
+            "launchMode": "external"
+        },
+        "instants": {
+            "name": "Instants",
+            "description": "A team collaboration prototype for sharing work and getting feedback.",
+            "icon": "photos",
+            "color": "yellow",
+            "featured": true
+        },
+        "quitter": {
+            "name": "Quitter",
+            "description": "A prototype feed for agent and thread activity, with customizable posts.",
+            "icon": "chat",
+            "color": "red",
+            "featured": true
+        },
+        "website": {
+            "icon": "browser",
+            "color": "teal",
+            "launchMode": "external"
+        },
+        "qq": { "icon": "terminal", "color": "teal", "category": "Infra" },
+        "depot": { "icon": "terminal", "color": "teal", "category": "Infra" },
+        "sync": { "icon": "sync", "color": "blue", "category": "Infra" },
+        "recipes": { "icon": "chef-hat", "color": "salmon", "category": "Infra" },
+        "toolchains": { "icon": "toolbox", "color": "red", "category": "Infra" },
+        "remote-build": { "icon": "server", "color": "blue", "category": "Infra" },
+        "gate": { "icon": "shield", "color": "orange", "category": "Infra" },
+        "test-pipelines": { "icon": "clipboard", "color": "green", "category": "Infra" },
+        "gardener": { "icon": "sprout", "color": "green", "category": "Infra" },
+        "rollers": { "icon": "conveyor", "color": "yellow", "category": "Infra" },
+        "perf": { "icon": "stopwatch", "color": "red", "category": "Infra" },
+        "release": { "icon": "tag", "color": "orange", "category": "Infra" },
+        "installer": { "icon": "download", "color": "seagreen", "category": "Infra" },
+        "setup": { "icon": "wand", "color": "lilac", "category": "Infra" },
+        ".github": { "icon": "profile", "color": "lilac" },
+        "agent-skills": { "icon": "slash", "color": "orange" },
+        "environment": { "icon": "cube", "color": "seagreen" },
+        "euler": { "icon": "apps", "color": "pink" },
+        "galileo": { "icon": "telescope", "color": "blue" },
+        "marketing": { "icon": "megaphone", "color": "pink" },
+        "monitoring": { "icon": "gauge", "color": "teal" },
+        "quirq_ai": { "icon": "quirq", "color": "lilac" },
+        "quirqy": { "icon": "blob", "color": "yellow" },
+        "research": { "icon": "flask", "color": "seagreen" },
+        "ui": { "icon": "shapes", "color": "pink" },
+        "vangogh": { "icon": "brush", "color": "salmon" },
+        "wiki": { "icon": "map", "color": "salmon" },
+        "xo-cowork-api": { "icon": "hub", "color": "purple" }
+    }
+}
