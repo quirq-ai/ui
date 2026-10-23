@@ -4,23 +4,41 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predev": "bun run registry:build",
     "build": "next build",
+    "prebuild": "bun run registry:build",
     "start": "next start",
     "lint": "biome check",
-    "format": "biome format --write"
+    "format": "biome format --write",
+    "typecheck": "next typegen && tsc --noEmit",
+    "registry:generate": "node scripts/generate-registry.mjs",
+    "registry:build": "node scripts/build-registry.mjs"
   },
   "dependencies": {
+    "@astryxdesign/cli": "0.6.5",
+    "@astryxdesign/core": "0.6.5",
+    "@astryxdesign/theme-neutral": "0.6.5",
+    "@heroicons/react": "^2.2.0",
+    "@stylexjs/stylex": "^0.19.1",
+    "lucide-react": "^1.54.0",
     "next": "16.4.2",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "recharts": "^3.10.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/plugin-syntax-jsx": "^7.29.7",
+    "@babel/plugin-syntax-typescript": "^7.29.7",
     "@biomejs/biome": "2.4.2",
+    "@stylexjs/babel-plugin": "^0.19.1",
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "babel-loader": "^10.1.1",
     "babel-plugin-react-compiler": "1.0.0",
+    "shadcn": "4.21.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   },

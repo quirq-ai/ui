@@ -7,7 +7,18 @@
   },
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "!node_modules", "!.next", "!dist", "!build"]
+    "includes": [
+      "**",
+      "!node_modules",
+      "!.next",
+      "!dist",
+      "!build",
+      "!public/r",
+      "!registry",
+      "!registry.json",
+      "!src/registry/*.generated.ts",
+      "!theme.template.ts"
+    ]
   },
   "formatter": {
     "enabled": true,

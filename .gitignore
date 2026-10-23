@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# built registry JSON (bun run registry:build — runs before dev and build)
+/public/r
