@@ -1,6 +1,6 @@
 // Builds public/r/*.json from registry.json.
 //
-//   node scripts/build-registry.mjs   (or: bun run registry:build — runs before dev and build)
+//   bun run registry:build   (or: bun scripts/build-registry.mjs — runs before dev and build)
 //
 // `homepage` in registry.json is the one place the registry URL lives. Items that depend on
 // other items in this registry need full URLs (so `shadcn add <url>` works with no setup), so

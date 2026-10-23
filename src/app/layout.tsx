@@ -3,9 +3,9 @@ import { AstryxProviders } from "@/components/astryx-providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: { default: "XO UI registry", template: "%s · XO UI registry" },
+  title: { default: "Quirq UI registry", template: "%s · Quirq UI registry" },
   description:
-    "Every XO UI component, block and page template, distributed through a shadcn registry.",
+    "Every Quirq UI component, block and page template, distributed through a shadcn registry.",
   icons: { icon: "/favicon.svg" },
 };
 

@@ -114,7 +114,7 @@ function InstallTabs({
           </VStack>
           <VStack gap={2}>
             <Text weight="semibold">
-              3. Make sure the XO UI CSS and Theme are set up
+              3. Make sure the Quirq UI CSS and Theme are set up
             </Text>
             <Text color="secondary">
               See <Link href="/docs/installation">Installation</Link>, steps 1
@@ -198,7 +198,7 @@ export function CatalogPage({
               width="100%"
             />
             <Text color="secondary">
-              A thin wrapper around the XO UI {entry.exportName} component. Run{" "}
+              A thin wrapper around the Quirq UI {entry.exportName} component. Run{" "}
               <Code>astryx component {entry.exportName}</Code> for every prop,
               example and accessibility guidance.
             </Text>

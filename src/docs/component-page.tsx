@@ -55,7 +55,7 @@ function InstallTabs({
               3. Update the import paths to match your project setup
             </Text>
             <Text color="secondary">
-              Make sure the XO UI CSS and Theme are set up — see{" "}
+              Make sure the Quirq UI CSS and Theme are set up — see{" "}
               <Link href="/docs/installation">Installation</Link>, steps 1 and
               2.
             </Text>
@@ -135,7 +135,7 @@ export function ComponentPage({
           ))}
           {item.referenceName && (
             <Text color="secondary">
-              Built on XO UI. Run{" "}
+              Built on Quirq UI. Run{" "}
               <Code>astryx component {item.referenceName}</Code> for every prop
               and accessibility guidance.
             </Text>

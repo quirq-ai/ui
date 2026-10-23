@@ -26,19 +26,19 @@ const COPY: Record<
   component: {
     title: "Components",
     description:
-      "Every XO UI component as an installable item. Each one copies a thin wrapper into components/ui that you can change.",
+      "Every Quirq UI component as an installable item. Each one copies a thin wrapper into components/ui that you can change.",
     groupHeader: "Category",
   },
   block: {
     title: "Blocks",
     description:
-      "Ready-made compositions from the XO UI block templates — drop one into a page section and replace its data.",
+      "Ready-made compositions from the Quirq UI block templates — drop one into a page section and replace its data.",
     groupHeader: "Component",
   },
   template: {
     title: "Templates",
     description:
-      "Full XO UI page templates. Each installs as a Next.js route under app/ — keep its frame, gap and padding and replace the content.",
+      "Full Quirq UI page templates. Each installs as a Next.js route under app/ — keep its frame, gap and padding and replace the content.",
     groupHeader: "Category",
   },
 };

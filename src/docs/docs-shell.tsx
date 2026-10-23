@@ -40,7 +40,7 @@ export function DocsShell({ counts, children }: Readonly<DocsShellProps>) {
         topNav={
           <TopNav
             heading={
-              <TopNavHeading heading="XO UI registry" headingHref="/docs" />
+              <TopNavHeading heading="Quirq UI registry" headingHref="/docs" />
             }
           />
         }

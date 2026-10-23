@@ -1,6 +1,6 @@
 // Generates registry items for every Astryx component, block template and page template.
 //
-//   node scripts/generate-registry.mjs   (or: bun run registry:generate)
+//   bun run registry:generate   (or: bun scripts/generate-registry.mjs)
 //
 // Sources come from the installed packages, so re-run after bumping @astryxdesign/*:
 //   - components:  `astryx component --list` + @astryxdesign/core/src/**/<Name>.doc.mjs
@@ -262,7 +262,7 @@ for (const template of templateList) {
     : path.basename(path.dirname(sourceFile));
   const dependencies = externalDependencies(source);
   const description =
-    template.description || `${title} block built with XO UI.`;
+    template.description || `${title} block built with Quirq UI.`;
 
   if (!isHandWritten)
     items.push({
@@ -312,12 +312,12 @@ items.sort(
   (a, b) =>
     kindOrder[a.type] - kindOrder[b.type] || a.name.localeCompare(b.name),
 );
-// The docs UI is branded XO UI: rename "Astryx" in user-facing titles and descriptions.
+// The docs UI is branded Quirq UI: rename "Astryx" in user-facing titles and descriptions.
 const brand = (entry) => ({
   ...entry,
-  ...(entry.title ? { title: entry.title.replace(/Astryx/g, "XO UI") } : {}),
+  ...(entry.title ? { title: entry.title.replace(/Astryx/g, "Quirq UI") } : {}),
   ...(entry.description
-    ? { description: entry.description.replace(/Astryx/g, "XO UI") }
+    ? { description: entry.description.replace(/Astryx/g, "Quirq UI") }
     : {}),
 });
 items.splice(0, items.length, ...items.map(brand));

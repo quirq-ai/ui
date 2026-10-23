@@ -34,7 +34,7 @@ export function IntroductionPage({
   return (
     <DocPage
       title="Introduction"
-      description="Every XO UI component, block and page template, distributed through a shadcn registry. Install any of them with one command and own the code."
+      description="Every Quirq UI component, block and page template, distributed through a shadcn registry. Install any of them with one command and own the code."
       outline={OUTLINE}
     >
       <HStack gap={2}>
@@ -63,7 +63,7 @@ export function IntroductionPage({
       <DocSection id="how-it-works" title="How it works">
         <List listStyle="disc">
           <ListItem
-            label="XO UI is the core"
+            label="Quirq UI is the core"
             description="Every item composes @astryxdesign/core components, so styling, theming and accessibility come from the design system."
           />
           <ListItem
@@ -72,7 +72,7 @@ export function IntroductionPage({
           />
           <ListItem
             label="Dependencies install automatically"
-            description={`Items depend on astryx-base, which installs XO UI and the theme the first time you add anything.`}
+            description={`Items depend on astryx-base, which installs Quirq UI and the theme the first time you add anything.`}
           />
         </List>
       </DocSection>
@@ -84,12 +84,12 @@ export function IntroductionPage({
           <ListItem
             label={`${count("component")} components`}
             href="/docs/components"
-            description="Every XO UI component, each installable on its own into components/ui."
+            description="Every Quirq UI component, each installable on its own into components/ui."
           />
           <ListItem
             label={`${count("block")} blocks`}
             href="/docs/blocks"
-            description="Ready-made compositions from the XO UI block templates, with live previews."
+            description="Ready-made compositions from the Quirq UI block templates, with live previews."
           />
           <ListItem
             label={`${count("template")} page templates`}

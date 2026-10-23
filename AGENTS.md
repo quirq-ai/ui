@@ -8,9 +8,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
-# XO UI registry
+# Quirq UI registry
 
-A shadcn registry (plus Next.js docs site) for every Astryx component, block and page template, branded XO UI.
+A shadcn registry (plus Next.js docs site) for every Astryx component, block and page template, branded Quirq UI.
 Registry content lives in `registry/` + `registry.json`; the docs site lives in `src/`. See README.md for the layout.
 
 - Don't hand-edit generated files (`registry/astryx/**` except the `HAND_WRITTEN` items, `src/registry/*.generated.ts`).

@@ -11,8 +11,8 @@
     "lint": "biome check",
     "format": "biome format --write",
     "typecheck": "next typegen && tsc --noEmit",
-    "registry:generate": "node scripts/generate-registry.mjs",
-    "registry:build": "node scripts/build-registry.mjs"
+    "registry:generate": "bun scripts/generate-registry.mjs",
+    "registry:build": "bun scripts/build-registry.mjs"
   },
   "dependencies": {
     "@astryxdesign/cli": "0.6.5",

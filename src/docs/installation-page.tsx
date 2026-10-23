@@ -72,7 +72,7 @@ export function InstallationPage() {
   return (
     <DocPage
       title="Installation"
-      description="Install XO UI components, blocks and page templates into your project with the shadcn CLI."
+      description="Install Quirq UI components, blocks and page templates into your project with the shadcn CLI."
       outline={OUTLINE}
     >
       <DocSection id="prerequisites" title="Prerequisites">
@@ -89,7 +89,7 @@ export function InstallationPage() {
       <DocSection id="setup" title="1. Run the setup">
         <Text>
           Run this once. It installs <Code>@astryxdesign/core</Code> and the
-          neutral theme, replaces <Code>app/globals.css</Code> with the XO UI +
+          neutral theme, replaces <Code>app/globals.css</Code> with the Quirq UI +
           Tailwind layer order, and adds{" "}
           <Code>components/astryx-providers.tsx</Code>.
         </Text>
@@ -100,7 +100,7 @@ export function InstallationPage() {
         <Banner
           status="warning"
           title="Answer yes to overwrite globals.css"
-          description={`The default @import "tailwindcss" declares Tailwind's layers before XO UI's, which breaks component styles. The new file declares every layer first. Move any custom CSS you need into it afterwards.`}
+          description={`The default @import "tailwindcss" declares Tailwind's layers before Quirq UI's, which breaks component styles. The new file declares every layer first. Move any custom CSS you need into it afterwards.`}
           collapsible={false}
         />
         <CodeBlock

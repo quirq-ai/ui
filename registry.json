@@ -1,13 +1,13 @@
 {
 	"$schema": "https://ui.shadcn.com/schema/registry.json",
-	"name": "xo-ui-registry",
+	"name": "quirq-ui-registry",
 	"homepage": "https://ui.quirq.dev",
 	"items": [
 		{
 			"name": "astryx-base",
 			"type": "registry:item",
-			"title": "XO UI base",
-			"description": "Installs XO UI core + the neutral theme packages. Run astryx-nextjs once to set up the CSS and Theme provider.",
+			"title": "Quirq UI base",
+			"description": "Installs Quirq UI core + the neutral theme packages. Run astryx-nextjs once to set up the CSS and Theme provider.",
 			"dependencies": [
 				"@astryxdesign/core@^0.6.5",
 				"@astryxdesign/theme-neutral@^0.6.5",
@@ -17,8 +17,8 @@
 		{
 			"name": "astryx-nextjs",
 			"type": "registry:item",
-			"title": "XO UI setup for Next.js",
-			"description": "One-time setup for Next.js + Tailwind v4: replaces app/globals.css with the XO UI layer order and adds the Theme provider.",
+			"title": "Quirq UI setup for Next.js",
+			"description": "One-time setup for Next.js + Tailwind v4: replaces app/globals.css with the Quirq UI layer order and adds the Theme provider.",
 			"registryDependencies": [
 				"https://ui.quirq.dev/r/astryx-base.json"
 			],
@@ -39,7 +39,7 @@
 			"name": "button",
 			"type": "registry:ui",
 			"title": "Button",
-			"description": "Triggers an action on click. Primary, secondary, ghost and destructive variants with sizes, icons, loading and async click states. Built on XO UI Button.",
+			"description": "Triggers an action on click. Primary, secondary, ghost and destructive variants with sizes, icons, loading and async click states. Built on Quirq UI Button.",
 			"registryDependencies": [
 				"https://ui.quirq.dev/r/astryx-base.json"
 			],
@@ -54,7 +54,7 @@
 			"name": "metric-strip",
 			"type": "registry:block",
 			"title": "Metric strip",
-			"description": "A row of headline metrics with trend tokens, separated by vertical dividers. Built with XO UI.",
+			"description": "A row of headline metrics with trend tokens, separated by vertical dividers. Built with Quirq UI.",
 			"registryDependencies": [
 				"https://ui.quirq.dev/r/astryx-base.json"
 			],
@@ -1076,7 +1076,7 @@
 			"name": "date-time-input",
 			"type": "registry:ui",
 			"title": "Date Time Input",
-			"description": "DateTimeInput combines date and time selection in one field. With presentation=\"adaptive-native\" (the default), mouse/trackpad devices use XO UI typed fields and popovers, while coarse-pointer devices use browser/OS date and time controls in the same two-segment field. presentation=\"native\" uses both native controls on every pointer; presentation=\"adaptive-bottom-sheet\" keeps XO UI's own surfaces — pointer fields on fine pointers and the coordinated Date/Time bottom sheet on coarse pointers; \"popover\" and \"bottom-sheet\" force one XO UI surface on every pointer.",
+			"description": "DateTimeInput combines date and time selection in one field. With presentation=\"adaptive-native\" (the default), mouse/trackpad devices use Quirq UI typed fields and popovers, while coarse-pointer devices use browser/OS date and time controls in the same two-segment field. presentation=\"native\" uses both native controls on every pointer; presentation=\"adaptive-bottom-sheet\" keeps Quirq UI's own surfaces — pointer fields on fine pointers and the coordinated Date/Time bottom sheet on coarse pointers; \"popover\" and \"bottom-sheet\" force one Quirq UI surface on every pointer.",
 			"categories": [
 				"component",
 				"form-controls"
@@ -1304,7 +1304,7 @@
 			"name": "field",
 			"type": "registry:ui",
 			"title": "Field",
-			"description": "Field is a low-level wrapper for custom, native, or third-party controls that do not already provide field label, description, and status UI. Use it when you need the Field shell around a control you own; use styled XO UI inputs like TextInput, Typeahead, and Select directly when they already expose label, description, and validation props.",
+			"description": "Field is a low-level wrapper for custom, native, or third-party controls that do not already provide field label, description, and status UI. Use it when you need the Field shell around a control you own; use styled Quirq UI inputs like TextInput, Typeahead, and Select directly when they already expose label, description, and validation props.",
 			"categories": [
 				"component",
 				"form-controls"
@@ -1532,7 +1532,7 @@
 			"name": "internationalization-provider",
 			"type": "registry:ui",
 			"title": "Internationalization Provider",
-			"description": "Used inside i18n. Wraps your app to set the active locale and (optionally) merge additional translation catalogs + per-locale overrides. XO UI components inside the subtree resolve their strings against this context.",
+			"description": "Used inside i18n. Wraps your app to set the active locale and (optionally) merge additional translation catalogs + per-locale overrides. Quirq UI components inside the subtree resolve their strings against this context.",
 			"categories": [
 				"component",
 				"utility"
@@ -1551,7 +1551,7 @@
 			"name": "item",
 			"type": "registry:ui",
 			"title": "Item",
-			"description": "A single, flexible item primitive that unifies the \"start content + label + description + end content\" pattern across XO UI. Use it wherever you need a structured row: dropdown menus, selectors, contact lists, notifications, file browsers, and activity feeds.",
+			"description": "A single, flexible item primitive that unifies the \"start content + label + description + end content\" pattern across Quirq UI. Use it wherever you need a structured row: dropdown menus, selectors, contact lists, notifications, file browsers, and activity feeds.",
 			"categories": [
 				"component",
 				"table&list"
@@ -1722,7 +1722,7 @@
 			"name": "link-provider",
 			"type": "registry:ui",
 			"title": "Link Provider",
-			"description": "Wraps your app to replace the default <a> tag with a framework-specific link component (e.g. Next.js Link) for client-side routing across all XO UI components.",
+			"description": "Wraps your app to replace the default <a> tag with a framework-specific link component (e.g. Next.js Link) for client-side routing across all Quirq UI components.",
 			"categories": [
 				"component",
 				"utility"
@@ -1779,7 +1779,7 @@
 			"name": "markdown",
 			"type": "registry:ui",
 			"title": "Markdown",
-			"description": "Renders a markdown string as XO UI-styled components. Use Markdown for user-generated content, AI responses, and documentation; it handles headings, lists, tables, code blocks, and citations with consistent styling.",
+			"description": "Renders a markdown string as Quirq UI-styled components. Use Markdown for user-generated content, AI responses, and documentation; it handles headings, lists, tables, code blocks, and citations with consistent styling.",
 			"categories": [
 				"component",
 				"content"
@@ -2767,7 +2767,7 @@
 			"name": "theme",
 			"type": "registry:ui",
 			"title": "Theme",
-			"description": "Wraps a subtree with a specific XO UI theme. For static production themes, use astryx theme build and import the generated CSS plus built theme object for first-paint and SSR performance.",
+			"description": "Wraps a subtree with a specific Quirq UI theme. For static production themes, use astryx theme build and import the generated CSS plus built theme object for first-paint and SSR performance.",
 			"categories": [
 				"component",
 				"utility"
@@ -2805,7 +2805,7 @@
 			"name": "time-input",
 			"type": "registry:ui",
 			"title": "Time Input",
-			"description": "TimeInput uses a browser/OS time picker on coarse pointers by default and XO UI's typed field on fine pointers. It converts values to a standard format and supports arrow-key adjustment on the typed surface.",
+			"description": "TimeInput uses a browser/OS time picker on coarse pointers by default and Quirq UI's typed field on fine pointers. It converts values to a standard format and supports arrow-key adjustment on the typed surface.",
 			"categories": [
 				"component",
 				"form-controls"
@@ -4472,7 +4472,7 @@
 			"name": "block-button-group-showcase",
 			"type": "registry:block",
 			"title": "ButtonGroup",
-			"description": "ButtonGroup block built with XO UI.",
+			"description": "ButtonGroup block built with Quirq UI.",
 			"categories": [
 				"block",
 				"button-group"
@@ -5183,7 +5183,7 @@
 			"name": "block-chat-composer-input-showcase",
 			"type": "registry:block",
 			"title": "ChatComposerInput",
-			"description": "ChatComposerInput block built with XO UI.",
+			"description": "ChatComposerInput block built with Quirq UI.",
 			"categories": [
 				"block",
 				"chat-composer-input"
@@ -5221,7 +5221,7 @@
 			"name": "block-chat-composer-showcase",
 			"type": "registry:block",
 			"title": "ChatComposer",
-			"description": "ChatComposer block built with XO UI.",
+			"description": "ChatComposer block built with Quirq UI.",
 			"categories": [
 				"block",
 				"chat-composer"
@@ -5449,7 +5449,7 @@
 			"name": "block-chat-layout-showcase",
 			"type": "registry:block",
 			"title": "ChatLayout",
-			"description": "ChatLayout block built with XO UI.",
+			"description": "ChatLayout block built with Quirq UI.",
 			"categories": [
 				"block",
 				"chat-layout"
@@ -5999,7 +5999,7 @@
 			"name": "block-chat-tokenized-text-showcase",
 			"type": "registry:block",
 			"title": "ChatTokenizedText",
-			"description": "ChatTokenizedText block built with XO UI.",
+			"description": "ChatTokenizedText block built with Quirq UI.",
 			"categories": [
 				"block",
 				"chat-tokenized-text"
@@ -6037,7 +6037,7 @@
 			"name": "block-chat-tool-calls-showcase",
 			"type": "registry:block",
 			"title": "ChatToolCalls",
-			"description": "ChatToolCalls block built with XO UI.",
+			"description": "ChatToolCalls block built with Quirq UI.",
 			"categories": [
 				"block",
 				"chat-tool-calls"
@@ -6227,7 +6227,7 @@
 			"name": "block-checkbox-list-showcase",
 			"type": "registry:block",
 			"title": "CheckboxList",
-			"description": "CheckboxList block built with XO UI.",
+			"description": "CheckboxList block built with Quirq UI.",
 			"categories": [
 				"block",
 				"checkbox-list"
@@ -8148,7 +8148,7 @@
 			"name": "block-file-input-showcase",
 			"type": "registry:block",
 			"title": "FileInput",
-			"description": "FileInput block built with XO UI.",
+			"description": "FileInput block built with Quirq UI.",
 			"categories": [
 				"block",
 				"file-input"
@@ -8319,7 +8319,7 @@
 			"name": "block-grid-showcase",
 			"type": "registry:block",
 			"title": "Grid",
-			"description": "Grid block built with XO UI.",
+			"description": "Grid block built with Quirq UI.",
 			"categories": [
 				"block",
 				"grid"
@@ -8471,7 +8471,7 @@
 			"name": "block-heading-showcase",
 			"type": "registry:block",
 			"title": "Heading",
-			"description": "Heading block built with XO UI.",
+			"description": "Heading block built with Quirq UI.",
 			"categories": [
 				"block",
 				"heading"
@@ -8746,7 +8746,7 @@
 			"name": "block-icon-showcase",
 			"type": "registry:block",
 			"title": "Icon",
-			"description": "Icon block built with XO UI.",
+			"description": "Icon block built with Quirq UI.",
 			"categories": [
 				"block",
 				"icon"
@@ -8822,7 +8822,7 @@
 			"name": "block-input-group-showcase",
 			"type": "registry:block",
 			"title": "InputGroup",
-			"description": "InputGroup block built with XO UI.",
+			"description": "InputGroup block built with Quirq UI.",
 			"categories": [
 				"block",
 				"input-group"
@@ -8841,7 +8841,7 @@
 			"name": "block-internationalization-provider01-shipped-locale",
 			"type": "registry:block",
 			"title": "InternationalizationProvider - Shipped Locale",
-			"description": "Load a locale catalog shipped by XO UI and re-render InternationalizationProvider with a new locale to update XO UI strings live.",
+			"description": "Load a locale catalog shipped by Quirq UI and re-render InternationalizationProvider with a new locale to update Quirq UI strings live.",
 			"categories": [
 				"block",
 				"internationalization-provider"
@@ -8860,7 +8860,7 @@
 			"name": "block-internationalization-provider02-overrides",
 			"type": "registry:block",
 			"title": "InternationalizationProvider - Overrides",
-			"description": "Override a small number of XO UI strings without providing a full locale catalog.",
+			"description": "Override a small number of Quirq UI strings without providing a full locale catalog.",
 			"categories": [
 				"block",
 				"internationalization-provider"
@@ -8879,7 +8879,7 @@
 			"name": "block-internationalization-provider03-rtl-direction",
 			"type": "registry:block",
 			"title": "InternationalizationProvider - RTL Direction",
-			"description": "Toggle text direction with the `dir` prop and watch XO UI components mirror. Pagination flips its prev/next chevrons under RTL. The `dir` prop is passed to both `InternationalizationProvider` (so XO UI components pick it up) and the `VStack` (so the DOM subtree mirrors); both channels stay in sync with no extra wrapper.",
+			"description": "Toggle text direction with the `dir` prop and watch Quirq UI components mirror. Pagination flips its prev/next chevrons under RTL. The `dir` prop is passed to both `InternationalizationProvider` (so Quirq UI components pick it up) and the `VStack` (so the DOM subtree mirrors); both channels stay in sync with no extra wrapper.",
 			"categories": [
 				"block",
 				"internationalization-provider"
@@ -8939,7 +8939,7 @@
 			"name": "block-item-showcase",
 			"type": "registry:block",
 			"title": "Item",
-			"description": "Item block built with XO UI.",
+			"description": "Item block built with Quirq UI.",
 			"categories": [
 				"block",
 				"item"
@@ -9056,7 +9056,7 @@
 			"name": "block-kbd-showcase",
 			"type": "registry:block",
 			"title": "Kbd",
-			"description": "Kbd block built with XO UI.",
+			"description": "Kbd block built with Quirq UI.",
 			"categories": [
 				"block",
 				"kbd"
@@ -9341,7 +9341,7 @@
 			"name": "block-layout-showcase",
 			"type": "registry:block",
 			"title": "Layout",
-			"description": "Layout block built with XO UI.",
+			"description": "Layout block built with Quirq UI.",
 			"categories": [
 				"block",
 				"layout"
@@ -9493,7 +9493,7 @@
 			"name": "block-link-provider-custom-link",
 			"type": "registry:block",
 			"title": "Link Provider - Custom Link Component",
-			"description": "Routes every XO UI link through a custom component that intercepts the click, the hook frameworks like Next.js use for client-side navigation. Click the link to see the custom handler fire instead of a full-page load.",
+			"description": "Routes every Quirq UI link through a custom component that intercepts the click, the hook frameworks like Next.js use for client-side navigation. Click the link to see the custom handler fire instead of a full-page load.",
 			"categories": [
 				"block",
 				"link-provider"
@@ -9702,7 +9702,7 @@
 			"name": "block-list-showcase",
 			"type": "registry:block",
 			"title": "List",
-			"description": "List block built with XO UI.",
+			"description": "List block built with Quirq UI.",
 			"categories": [
 				"block",
 				"list"
@@ -9987,7 +9987,7 @@
 			"name": "block-metadata-list-showcase",
 			"type": "registry:block",
 			"title": "MetadataList",
-			"description": "MetadataList block built with XO UI.",
+			"description": "MetadataList block built with Quirq UI.",
 			"categories": [
 				"block",
 				"metadata-list"
@@ -10050,7 +10050,7 @@
 			"name": "block-mobile-nav-showcase",
 			"type": "registry:block",
 			"title": "MobileNav",
-			"description": "MobileNav block built with XO UI.",
+			"description": "MobileNav block built with Quirq UI.",
 			"categories": [
 				"block",
 				"mobile-nav"
@@ -10347,7 +10347,7 @@
 			"name": "block-multi-selector-showcase",
 			"type": "registry:block",
 			"title": "MultiSelector",
-			"description": "MultiSelector block built with XO UI.",
+			"description": "MultiSelector block built with Quirq UI.",
 			"categories": [
 				"block",
 				"multi-selector"
@@ -10961,7 +10961,7 @@
 			"name": "block-popover-showcase",
 			"type": "registry:block",
 			"title": "Popover",
-			"description": "Popover block built with XO UI.",
+			"description": "Popover block built with Quirq UI.",
 			"categories": [
 				"block",
 				"popover"
@@ -11246,7 +11246,7 @@
 			"name": "block-radio-list-showcase",
 			"type": "registry:block",
 			"title": "RadioList",
-			"description": "RadioList block built with XO UI.",
+			"description": "RadioList block built with Quirq UI.",
 			"categories": [
 				"block",
 				"radio-list"
@@ -11610,7 +11610,7 @@
 			"name": "block-segmented-control-showcase",
 			"type": "registry:block",
 			"title": "SegmentedControl",
-			"description": "SegmentedControl block built with XO UI.",
+			"description": "SegmentedControl block built with Quirq UI.",
 			"categories": [
 				"block",
 				"segmented-control"
@@ -11825,7 +11825,7 @@
 			"name": "block-selector-showcase",
 			"type": "registry:block",
 			"title": "Selector",
-			"description": "Selector block built with XO UI.",
+			"description": "Selector block built with Quirq UI.",
 			"categories": [
 				"block",
 				"selector"
@@ -12072,7 +12072,7 @@
 			"name": "block-side-nav-showcase",
 			"type": "registry:block",
 			"title": "SideNav",
-			"description": "SideNav block built with XO UI.",
+			"description": "SideNav block built with Quirq UI.",
 			"categories": [
 				"block",
 				"side-nav"
@@ -12908,7 +12908,7 @@
 			"name": "block-tab-list-showcase",
 			"type": "registry:block",
 			"title": "TabList",
-			"description": "TabList block built with XO UI.",
+			"description": "TabList block built with Quirq UI.",
 			"categories": [
 				"block",
 				"tab-list"
@@ -13677,7 +13677,7 @@
 			"name": "block-text-input-showcase",
 			"type": "registry:block",
 			"title": "TextInput",
-			"description": "TextInput block built with XO UI.",
+			"description": "TextInput block built with Quirq UI.",
 			"categories": [
 				"block",
 				"text-input"
@@ -13772,7 +13772,7 @@
 			"name": "block-text-showcase",
 			"type": "registry:block",
 			"title": "Text",
-			"description": "Text block built with XO UI.",
+			"description": "Text block built with Quirq UI.",
 			"categories": [
 				"block",
 				"text"
@@ -14114,7 +14114,7 @@
 			"name": "block-time-input-showcase",
 			"type": "registry:block",
 			"title": "TimeInput",
-			"description": "A time input that uses the browser/OS picker on touch by default and XO UI typed entry on fine pointers.",
+			"description": "A time input that uses the browser/OS picker on touch by default and Quirq UI typed entry on fine pointers.",
 			"categories": [
 				"block",
 				"time-input"
@@ -14190,7 +14190,7 @@
 			"name": "block-timer-showcase",
 			"type": "registry:block",
 			"title": "Timer",
-			"description": "Timer block built with XO UI.",
+			"description": "Timer block built with Quirq UI.",
 			"categories": [
 				"block",
 				"timer"
@@ -14304,7 +14304,7 @@
 			"name": "block-timestamp-showcase",
 			"type": "registry:block",
 			"title": "Timestamp",
-			"description": "Timestamp block built with XO UI.",
+			"description": "Timestamp block built with Quirq UI.",
 			"categories": [
 				"block",
 				"timestamp"
@@ -14601,7 +14601,7 @@
 			"name": "block-toggle-button-showcase",
 			"type": "registry:block",
 			"title": "ToggleButton",
-			"description": "ToggleButton block built with XO UI.",
+			"description": "ToggleButton block built with Quirq UI.",
 			"categories": [
 				"block",
 				"toggle-button"
@@ -14743,7 +14743,7 @@
 			"name": "block-token-showcase",
 			"type": "registry:block",
 			"title": "Token",
-			"description": "Token block built with XO UI.",
+			"description": "Token block built with Quirq UI.",
 			"categories": [
 				"block",
 				"token"
@@ -15109,7 +15109,7 @@
 			"name": "block-tooltip-showcase",
 			"type": "registry:block",
 			"title": "Tooltip",
-			"description": "Tooltip block built with XO UI.",
+			"description": "Tooltip block built with Quirq UI.",
 			"categories": [
 				"block",
 				"tooltip"
@@ -15481,7 +15481,7 @@
 			"name": "block-top-nav-showcase",
 			"type": "registry:block",
 			"title": "TopNav",
-			"description": "TopNav block built with XO UI.",
+			"description": "TopNav block built with Quirq UI.",
 			"categories": [
 				"block",
 				"top-nav"
@@ -15607,7 +15607,7 @@
 			"name": "block-tree-list-showcase",
 			"type": "registry:block",
 			"title": "TreeList",
-			"description": "TreeList block built with XO UI.",
+			"description": "TreeList block built with Quirq UI.",
 			"categories": [
 				"block",
 				"tree-list"
@@ -15724,7 +15724,7 @@
 			"name": "block-typeahead-showcase",
 			"type": "registry:block",
 			"title": "Typeahead",
-			"description": "Typeahead block built with XO UI.",
+			"description": "Typeahead block built with Quirq UI.",
 			"categories": [
 				"block",
 				"typeahead"
@@ -15920,7 +15920,7 @@
 			"name": "block-visually-hidden-showcase",
 			"type": "registry:block",
 			"title": "VisuallyHidden",
-			"description": "VisuallyHidden block built with XO UI.",
+			"description": "VisuallyHidden block built with Quirq UI.",
 			"categories": [
 				"block",
 				"visually-hidden"

@@ -1,4 +1,4 @@
-# XO UI registry
+# Quirq UI registry
 
 A shadcn registry (plus docs site) for every Astryx component, block template and page template, built with Next.js.
 
